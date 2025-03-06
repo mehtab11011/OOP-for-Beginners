@@ -1,0 +1,76 @@
+OOP Topics Covered
+1. Encapsulation
+Encapsulation ka matlab hai data aur functions ko aik class mai bundle karna. Iska faida ye hai ke sensitive data ko access modifiers (private, public, protected) se protect kia jata hai.
+
+📂 File: encapsulation.cpp
+🔹 Is file mai yeh cover kia gaya hai:
+
+Private aur public modifiers ka use
+Data hiding ka concept
+2. Inheritance
+Inheritance ka matlab hai aik class doosri class se properties aur behavior inherit kar sakti hai.
+
+👉 Types of inheritance:
+
+Single Inheritance - Aik class doosri class se inherit karti hai.
+Multi-level Inheritance - Aik class doosri se, phir teesri usse inherit karti hai.
+Multiple Inheritance - Aik class do ya zyada classes se inherit karti hai.
+Hierarchical Inheritance - Aik parent class aur multiple child classes.
+Hybrid Inheritance - Multiple inheritance ka combination.
+📂 File: inheritance.cpp
+🔹 Is file mai yeh cover kia gaya hai:
+
+Different types of inheritance ke examples
+3. Polymorphism
+Polymorphism ka matlab hai same function ya method aik se zyada tareeqon se kaam kar sakta hai.
+
+👉 Types of Polymorphism:
+
+Compile-time Polymorphism: Function overloading aur operator overloading ke through achieve hota hai.
+Run-time Polymorphism: Function overriding aur virtual functions ke through achieve hota hai.
+📂 File: polymorphism.cpp
+🔹 Is file mai yeh cover kia gaya hai:
+
+Function overloading ka example
+Function overriding aur virtual functions ka concept
+4. Abstraction
+Abstraction ka matlab hai jo cheez zaroori hai wo show karo, aur jo nahi hai wo hide karo.
+
+📂 File: abstraction.cpp
+🔹 Is file mai yeh cover kia gaya hai:
+
+Abstract classes ka concept
+Pure virtual functions ka istemal
+5. Constructors in OOP
+Constructor aik special function hota hai jo object create hote hi automatically call hota hai.
+
+👉 Types of Constructors:
+
+Non-Parameterized Constructor: Jo kisi argument ko accept nahi karta.
+Parameterized Constructor: Jo arguments accept karta hai.
+Copy Constructor: Jo aik object ka copy create karta hai.
+📂 File: constructors.cpp
+🔹 Is file mai yeh cover kia gaya hai:
+
+Different types of constructors ke examples
+6. Static Keyword
+Static keyword ka use kisi variable ya function ko lifetime tak retain karne ke liye hota hai.
+
+👉 Static members:
+
+Static Variables: Jo apni value function calls ke darmiyan retain karte hain.
+Static Functions: Jo bina object banaye bhi call ho sakte hain.
+📂 File: static.cpp
+🔹 Is file mai yeh cover kia gaya hai:
+
+Static variables aur functions ka practical example
+7. Virtual Functions & Runtime Polymorphism
+Virtual functions ka use runtime par function overriding ke liye hota hai. Agar base class ka function virtual declare ho, to derived class ka function use override kar sakta hai.
+
+📂 File: virtual_function_runtime.cpp
+🔹 Is file mai yeh cover kia gaya hai:
+
+Virtual functions ka example
+Function overriding ka practical implementation
+Conclusion
+Ye document Object-Oriented Programming (OOP) ke sare important concepts cover karta hai. Har topic ke sath aik example file di gayi hai jo students ko easily samajhne aur practice karne mai madad degi.
